@@ -41,7 +41,7 @@ def twotermswithsumx(nums, x):
 def wordsindict(dictionary, text):
     '''
     dictionary: Словарь из N слов, длина каждого не > K
-    output: Функция определяет входит ли каждое слово в словарь (True or False)
+    output: Функция определяет входит ли каждое слово в словарь
     '''
     goodwords = set(dictionary)
     for word in dictionary:
